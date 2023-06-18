@@ -7,6 +7,7 @@ using CustomerManagement.DTOs;
 using CustomerManagement.Helper;
 using CustomerManagement.Interfaces;
 using CustomerManagement.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -15,6 +16,7 @@ namespace CustomerManagement.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CustomerController : ControllerBase
     {
         private readonly ICustomerInterface _customerRepository;

@@ -1,8 +1,8 @@
 ﻿using System;
-using CustomerManagement.Repositories;
-using CustomerManagement.Interfaces;
+using APIGateway.Repositories;
+using APIGateway.Interfaces;
 
-namespace CustomerManagement.Helper
+namespace APIGateway.Helper
 {
 	public class ScopeService
 	{
@@ -15,7 +15,7 @@ namespace CustomerManagement.Helper
 
         public void addScopes()
         {
-            _builder.Services.AddScoped<ICustomerInterface, CustomerRepository>();
+            _builder.Services.AddScoped<IAccountInterface, AccountRepository>();
         }
     }
 }

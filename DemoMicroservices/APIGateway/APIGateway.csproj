@@ -37,6 +37,9 @@
     <None Remove="Models\" />
     <None Remove="DTOs\" />
     <None Remove="ModelBuilders\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Repositories\" />
+    <None Remove="Helper\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -45,5 +48,8 @@
     <Folder Include="Models\" />
     <Folder Include="DTOs\" />
     <Folder Include="ModelBuilders\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Helper\" />
   </ItemGroup>
 </Project>

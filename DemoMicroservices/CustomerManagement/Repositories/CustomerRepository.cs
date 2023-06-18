@@ -6,7 +6,7 @@ using CustomerManagement.Models;
 using Microsoft.EntityFrameworkCore;
 using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
 
-namespace ProductManagement.Repositories
+namespace CustomerManagement.Repositories
 {
     public class CustomerRepository : ICustomerInterface
     {
